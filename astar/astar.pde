@@ -1,6 +1,6 @@
 float heuristic(Spot a, Spot b) {
   float d = dist(a.i, a.j, b.i, b.j);
-  //float d = abs(a.i - b.i) + abs(a.j - b.j);
+ //float d = abs(a.i - b.i) + abs(a.j - b.j);
   return d;
 }
 
